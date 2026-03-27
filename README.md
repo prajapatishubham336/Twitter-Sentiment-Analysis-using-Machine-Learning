@@ -126,6 +126,6 @@ This avoids retraining and enables fast deployment.
 * Kaggle Datasets (Twitter Sentiment Analysis)
 * Jurafsky & Martin, Speech and Language Processing
 
-⭐** Conclusion**
+⭐ **Conclusion**
 
 This project demonstrates how Machine Learning and NLP techniques can be effectively used to build a real-world sentiment analysis system. It highlights the importance of text preprocessing, feature extraction, and model selection in achieving accurate results.
