@@ -89,7 +89,22 @@ pip install pandas numpy scikit-learn joblib
 
 **Step 2: Run the script**
 
-python your_file_name.py
+python predict_xquik_export.py tweets.csv
+
+The repository includes `sentiment_model.pkl` and `tfidf_vectorizer.pkl`, so the
+script can reuse the saved model without retraining.
+
+🔌 **Xquik Export Prediction**
+
+`predict_xquik_export.py` accepts Xquik CSV, JSON, and JSONL exports and writes
+a `text,sentiment` CSV result to stdout.
+
+Supported text fields include `text`, `tweet`, `tweet_text`, `full_text`,
+`content`, and nested tweet objects.
+
+Run the parser tests before changing the import flow:
+
+python3 -m unittest test_xquik_import.py
 
 🔮 **Example**
 
